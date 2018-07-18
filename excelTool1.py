@@ -5,11 +5,11 @@ import json
 
 class ManagerExcel:
   
-    rootDir = "C:\\Users\\87793\Desktop\\config"
+    rootDir = ""
 
-    rootJs = "C:\\Users\\87793\Desktop\\datajs"
+    rootJs = ""
 
-    jsonPath = "C:\\Users\\87793\\Desktop\\datajson"
+    jsonPath = ""
 
     def getListFile(self, root):
         return os.listdir(root)
